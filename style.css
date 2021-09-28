@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    width:100%;
+    
+    height:100%;
+    background-color: cadetblue;
+}
+.container{
+    background-color:white;
+    margin-left:30em;
+    margin-right:30em;
+    padding:0px 0px 15px 0px;
+}
+
+.heading{
+font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+display:flex;
+justify-content: center;
+margin-top:68px;
+font-size:1.5em;
+letter-spacing:4px;
+margin-bottom:20px;
+
+}
+
+.heading i{
+    margin-top:8px;
+    margin-left:15px;
+}
+
+.calculate{
+    margin-top:5px;
+    margin-bottom:5px;
+    padding-top:5px;
+    margin-left:130px;
+}
+
+.calculate h4{
+     font-size:25px;
+     margin-top:10px;
+     margin-bottom:7px;
+}
+
+.calculate h5{
+
+    margin-top:15px;
+    font-size:20px;
+    margin-left:2px;
+    letter-spacing:2px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+input{
+    width:48%;
+    font-size:15px;
+    padding:10px;
+}
+
+#btn{
+    padding:5px 25px 5px 25px;
+    margin-left:40px;
+    border:none;
+    border-radius: 2px;
+    color: white;
+    font-size:20px;
+    background-color:rgba(0, 0, 0, 0.658);
+}
+
+@media only screen and (max-width:700px){
+ 
+    body{
+        margin-left:20px;
+        width:90%;
+        height:100%;
+        background-color:cadetblue;
+    }
+
+    .container{
+        background-color:white;
+        padding:0px 0px 15px 0px;
+    }
+    .heading{
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        display:flex;
+        justify-content: center;
+        margin-top:65px;
+        font-size:1em;
+        letter-spacing:3px;
+        margin-bottom:20px;
+        
+        }
+
+       
+        .heading i{
+            margin-top:22px;
+            margin-left:15px;
+        }
+
+        .calculate{
+            margin-top:5px;
+            margin-bottom:5px;
+            padding-top:5px;
+            margin-left:30px;
+        }
+        .calculate h4{
+            font-size:15px;
+            margin-top:10px;
+            margin-bottom:7px;
+       }
+       .calculate h5{
+
+        margin-top:20px;
+        font-size:16px;
+        margin-left:2px;
+        letter-spacing:2px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    input{
+        width:66%;
+        font-size:15px;
+        padding:5px ;
+    }
+
+    #btn{
+        padding:5px 25px 5px 25px;
+        margin-left:40px;
+        border:none;
+        border-radius: 2px;
+        color: white;
+        font-size:20px;
+        background-color:rgba(0, 0, 0, 0.658);
+    }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple-Interest</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6e3553706c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="heading">
+           
+               <h3>Simple-Interest</h3>      <i class="fas fa-percent"></i>
+               
+            </div>
+            <hr>
+         <div class="calculate">
+             <h4>Principle  Amount :</h4>
+             <input type="number" value="" id="p" placeholder="Enter Principle Amount"  required>
+             <h4>Interest Rate %  :</h4>
+             <input type="number" value="" id="r" placeholder="Enter Interest Rate"  maxlength="2" required>
+             <h4>Year  :</h4>
+             <input type="number" value="" id="n" placeholder="Enter Year " minlength="1" maxlength="2" required>
+                    <br><br>
+             <button id="btn" onclick="cal()">Submit</button>
+           
+             <h5 id="print"></h5>
+         </div>
+        </div>
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
